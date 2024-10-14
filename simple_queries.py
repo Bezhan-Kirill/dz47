@@ -14,7 +14,7 @@ connectionString = f'''DRIVER={{SQL Server}};
                        DATABASE={DATABASE};
                        Trusted_Connections=yes'''
 # "CREATE DB Params"
-# SQL_COMMAND = r"""
+# SQL_QUERY = r"""
 # CREATE DATABASE Products
 # ON
 # (
@@ -24,12 +24,14 @@ connectionString = f'''DRIVER={{SQL Server}};
 # MAXSIZE = 10 GB,
 # FILEGROWTH=5%)"""
 
+
 # SQL_QUERY = """
 # CREATE TABLE products_table
 # (product_id int PRIMARY KEY,
 # product_name nvarchar(50),
 # price int);
 # """
+
 
 # SQL_QUERY = """
 # INSERT INTO products_table (product_id, product_name, price)
@@ -39,6 +41,7 @@ connectionString = f'''DRIVER={{SQL Server}};
 # (3, 'Tablet', 200),
 # (4, 'Monitor', 350),
 # (5, 'Printer', 150)"""
+
 
 SQL_QUERY = """
 SELECT *
